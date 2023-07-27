@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let data = fs.readFileSync('./day4_input', 'utf8').trim().split('\n');
+let data = fs.readFileSync('../inputs/day4_input', 'utf8').trim().split('\n');
 
 let countpt1 = 0;
 let countpt2 = 0;

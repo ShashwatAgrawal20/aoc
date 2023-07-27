@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let data = fs.readFileSync("./day2_input", "utf8").trim().split("\n");
+let data = fs.readFileSync("../inputs/day2_input", "utf8").trim().split("\n");
 
 let scorept1 = 0;
 let scorept2 = 0;
